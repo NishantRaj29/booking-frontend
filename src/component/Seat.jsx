@@ -57,12 +57,12 @@ const Seat = () => {
             <h2>Seat Layout</h2>
             <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}>
                 <div style={{ flex: '1', marginRight: '20px' }}>
-                    {['A', 'B', 'D', 'F', 'H', 'J', 'K'].map((rowName) =>
+                    {['A', 'C', 'E', 'G', 'I', 'K'].map((rowName) =>
                         renderSeatRow(seats[rowName], rowName)
                     )}
                 </div>
                 <div style={{ flex: '1', marginLeft: '20px' }}>
-                    {['C', 'E', 'G', 'I', 'L'].map((rowName) =>
+                    {['B', 'D', 'F', 'H', 'J', 'L'].map((rowName) =>
                         renderSeatRow(seats[rowName], rowName)
                     )}
                 </div>
